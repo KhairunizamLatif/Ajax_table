@@ -8,10 +8,6 @@ if(!mysql_query($sql,$conn))
 }
 else
 {
-    echo ("<SCRIPT LANGUAGE='JavaScript'>
-			window.alert('katalaluan telah ditetapkan')
-			</SCRIPT>");
-
     mysql_close($conn);
 }
 ?>

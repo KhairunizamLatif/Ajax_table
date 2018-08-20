@@ -20,7 +20,7 @@ $(document).ready(function(){
         var status = $("#status").val();
 
         $.ajax({
-            url:"add_user.php",
+            url:"add.php",
             method:"POST",
             data:{code:code, name:name, username:username, password:password, classes:classes, classes_code:classes_code, status:status },
             dataType:"text",
