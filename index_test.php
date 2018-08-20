@@ -115,8 +115,7 @@
                                         <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
                                         <input class="form-control" placeholder="Status" name="status" id="status" type="text">
                                     </div>
-<!--                                </div>-->
-<!--                                <button type="submit" value="Submit" class="submit">msuk</button>-->
+                                </div>
                                 <button type="submit" name="submit" id="button" class="btn btn-primary">Create an account</button>
                             </form>
 
